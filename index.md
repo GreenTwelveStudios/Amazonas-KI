@@ -1,5 +1,7 @@
 ---
 layout: default
+image_sliders:
+   -example_slider
 ---
 
 Text can be **bold**, _italic_, or ~~strikethrough~~.
