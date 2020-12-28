@@ -11,5 +11,6 @@
       alt: image three
   settings:
     height: "'auto'"
+    transitionDuration: "100"
     effect: "'fade'"
     
