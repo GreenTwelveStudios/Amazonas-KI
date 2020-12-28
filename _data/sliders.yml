@@ -1,6 +1,5 @@
 # example slider
-image_sliders:
-  - example_slider
+
 - selector: example_slider
   captions: true
   images:
