@@ -15,7 +15,7 @@ Unsere KI berechnet Züge auf der Basis eines neuronalen Netzes. Dabei werden di
 
 ## Architektur des KI-Spielers und des KI-Trainings
 
-![Klassendiagramm KI-Spieler](/img/KI-SpielerKlassen.jpg) ![Klassendiagramm KI-Training](/img/Ki-Training_Klassen.jpg)
+![Klassendiagramm KI-Spieler](/img/KI-SpielerKlassen.png) ![Klassendiagramm KI-Training](/img/Ki-Training_Klassen.png)
 
 
 Der Manager ist die Zentrale Klasse des KI-Spielers, er verwaltet die verschiedenen Spiele. Außerdem ist er bei der Berechnung eines Zuges dafür zuständig, die einhaltung der MaxTurn-Time  sowie  die  Korrektheit  des  berechneten  Zuges  zu  überprüfen.Der AIController  ist  die  Schnittstelle  zum  Neuronalen Netz, welches die eigentliche Berechnung durchführt. Die Klasse AIControllerCallable dient als Wrapper Klasse um das berechnen in einem Thread zu ermöglichen. Außerdem gibt es die Klasse RandomTurn, welche einen zufälligen aber immer korrekten Zug zurückgibt.
