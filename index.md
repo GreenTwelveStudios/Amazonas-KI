@@ -1,7 +1,7 @@
 ---
 layout: default
 image_sliders:
-   - example_slider
+   - BeobachterSlider
 ---
 
 Willkommen auf unserer Website GreenTwelveStudios.
@@ -46,4 +46,4 @@ Zuerst spielt für jedes übergebene Board, jede KI gegen jede andere KI, altern
 anbei Einige Bilder zu unserem Beobachter und seinen Funktionen:
 
 
-{% include slider.html selector="example_slider" %}
+{% include slider.html selector="BeobachterSlider" %}
