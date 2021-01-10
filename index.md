@@ -5,6 +5,7 @@ image_sliders:
 ---
 
 Willkommen auf unserer Website GreenTwelveStudios.
+
 Für das Spiel „Amazonen“ haben wir eine KI im Rahmen des Software-Technik Praktikums 20/21 entwickelt, auf die wir im folgenden näher eingehen möchten.
 
 ## Neuronales Netz
