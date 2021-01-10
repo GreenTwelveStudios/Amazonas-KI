@@ -1,16 +1,17 @@
 # example slider
 
-- selector: example_slider
+- selector: BeobachterSlider
   captions: true
   images:
-    - src: /img/1.jpg
-      alt: image one
-    - src: /img/2.jpg
-      alt: image two
-    - src: /img/3.jpg
-      alt: image three
+    - src: /assets/img/Assets_pictures for devops_server_details.png
+      alt: Server Details
+    - src: /assets/img/Assets_pictures for devops_game_overview.png
+      alt: Game Overview
+    - src: /assets/img/Assets_pictures for devops_tournament_overview.png
+      alt: image Tournament Overview
+    - src: /assets/img/Assets_pictures for devops_single_game_overview.png
+      alt: Game Overview
   settings:
-    height: "'auto'"
-    transitionDuration: "100"
+    height: "'400'"
     effect: "'fade'"
     
