@@ -157,7 +157,6 @@
       alt: Game
     - src: /assets/img/69.png
       alt: Game
-      
   settings:
     height: "1:1"
     maxheight: "400"
