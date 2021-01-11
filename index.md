@@ -11,7 +11,7 @@ Für das Spiel „Amazonen“ haben wir eine KI im Rahmen des Software-Technik P
 
 ## Neuronales Netz
 
-![Neuronales Netz](/img/KINeuronalesNetz.png)
+![Neuronales Netz](/img/NeuronalesNetzWeiss.png)
 
 Unsere KI berechnet Züge auf der Basis eines neuronalen Netzes. Ein Neuronales Netz lässt sich als gerichteter gewichteter Graph darstellen. Dieser Graph lässt sich in verschiedene Schichten (layer) unterteilen. Es gibt jeweils ein input, und output layer, sowie beliebig viele hidden layer. Die Werte aller eingehenden Kanten eines Knotens werden bei der berechnung addiert und auf das Ergebnis wird eine Aktivierungsfunktion (wir nutzen hierfür die Sigmoidfunktion) angewendet. Dies dient als output für alle ausgehenden Kanten des Graphen.
 
