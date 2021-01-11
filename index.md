@@ -48,7 +48,8 @@ Zuerst spielt für jedes übergebene Board, jede KI gegen jede andere KI, altern
 
 anbei Einige Bilder zu unserem Beobachter und seinen Funktionen:
 
-
 {% include slider.html selector="BeobachterSlider" %}
+
+Hier ist noch ein Beispielspiel unserer KI zu sehen:
 
 {% include slider.html selector="GameSlider" %}
