@@ -158,7 +158,7 @@
     - src: /assets/img/69.png
       alt: Game
   settings:
-    height: "auto"
+    height: "'1:1'"
     effect: "'fade'"
     interval: "'10000'"
     
