@@ -159,7 +159,8 @@
       alt: Game
       
   settings:
-    height: "200"
+    height: "1:1"
+    maxheight: "400"
     effect: "'fade'"
     interval: "'10000'"
     
