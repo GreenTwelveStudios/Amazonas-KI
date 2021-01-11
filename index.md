@@ -35,7 +35,7 @@ Falls die Berechnung des neuronalen Netzes zu lange dauert oder der berechnete Z
 Die Aufgabe des KI-Trainings ist es ein Neuronales Netz zu trainieren, sodass dieses möglichst gute Züge macht. Dies geschieht mit Hilfe von Deep Reinforcement Learning.
 Eine Generation wird dabei wie Folgt trainiert:
 
-**BILD** KI-TRAININGSABLAUF (DEVOPS)
+![Trainingsablauf](/img/TrainingsablaufKI.png)
 Zuerst spielt für jedes übergebene Board
 
 Zuerst spielt für jedes übergebene Board, jede KI gegen jede andere KI, alternativ kann eine KI auch gegen zufällige Züge spielen (um das korrekte Ziehen zu trainieren). Für jedes Spiel werden bestimmte Punktzahlen für jede KI vergeben (abhängig von Sieg/Niederlage, falscher/richtiger Zug, ...), diese Punkte können frei konfiguriert werden und sich von Generation zu Generation unterscheiden. Sind nun alle Spiele abgeschlossen, so werden die besten KIs ausgewählt und zu der nächsten Generation hinzugefügt, dann werden die Gewichtsmatrizen der besten KIs zufällig verändert und daraus neue AIController erzeugt, welche auch für die nächste Generation verwendet werden. Außerdem ist es möglich komplett zufällige KIs hinzuzufügen. Die KIs werden nun dadurch besser, dass immer die besten KIs einer Generation ausgewählt werden und diese sich weiterentwickeln können, um eventuell eine noch bessere Leistung zu erzielen. Passiert dies ersetzt die neue KI eine schwächere und pflanzt sich stattdessen fort bzw. entwickelt sich weiter.
