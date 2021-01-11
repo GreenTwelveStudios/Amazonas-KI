@@ -14,5 +14,5 @@
   settings:
     height: "'400'"
     effect: "'fade'"
-    interval:"'10000'"
+    interval: "'10000'"
     
