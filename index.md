@@ -2,6 +2,7 @@
 layout: default
 image_sliders:
    - BeobachterSlider
+   - GameSlider
 ---
 
 Willkommen auf unserer Website GreenTwelveStudios.
@@ -46,3 +47,5 @@ anbei Einige Bilder zu unserem Beobachter und seinen Funktionen:
 
 
 {% include slider.html selector="BeobachterSlider" %}
+
+{% include slider.html selector="GameSlider" %}
