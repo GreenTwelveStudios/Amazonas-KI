@@ -16,3 +16,19 @@
     effect: "'fade'"
     interval: "'10000'"
     
+- selector: GameSlider
+  captions: true
+  images:
+    - src: /assets/img/Assets_pictures for devops_server_details.png
+      alt: Server Details
+    - src: /assets/img/Assets_pictures for devops_game_overview.png
+      alt: Game Overview
+    - src: /assets/img/Assets_pictures for devops_tournament_overview.png
+      alt: image Tournament Overview
+    - src: /assets/img/Assets_pictures for devops_single_game_overview.png
+      alt: Game Overview
+  settings:
+    height: "'400'"
+    effect: "'fade'"
+    interval: "'10000'"
+    
