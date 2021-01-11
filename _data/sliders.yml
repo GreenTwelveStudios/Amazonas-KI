@@ -159,7 +159,7 @@
       alt: Game
       
   settings:
-    height: "'400'"
+    height: "'auto'"
     effect: "'fade'"
     interval: "'10000'"
     
