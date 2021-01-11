@@ -12,7 +12,7 @@ Für das Spiel „Amazonen“ haben wir eine KI im Rahmen des Software-Technik P
 
 Unsere KI berechnet Züge auf der Basis eines neuronalen Netzes. Dabei werden die Werte aller eingehenden Kanten eines Knotens addiert und das Ergebnis wird durch eine Aktivierungsfunktion, (wir nutzen hierfür die Sigmoidfunktion) geschickt. 
 
-![Neuronales Netz](/img/KINeuronalesNetz.jpg)
+![Neuronales Netz](/img/KINeuronalesNetz.png)
 
 ## Architektur des KI-Spielers und des KI-Trainings
 
