@@ -13,5 +13,6 @@
       alt: Game Overview
   settings:
     height: "'400'"
+    transitionDuration: "'100'"
     effect: "'fade'"
     
